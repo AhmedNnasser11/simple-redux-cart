@@ -1,0 +1,19 @@
+.cart__item{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    padding: 5px;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    .img_cart{
+        width: 150px;
+        height: 150px;
+        img{
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+}
